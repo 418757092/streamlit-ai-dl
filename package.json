@@ -1,7 +1,7 @@
 {
   "name": "nodejs-sb",
   "version": "1.0.0",
-  "description": "node",
+  "description": "Node.js server with VPN/proxy setup script.",
   "main": "index.js",
   "author": "reo",
   "license": "MIT",
@@ -11,5 +11,11 @@
   },
   "engines": {
     "node": ">=14"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
+    , "http": "*"  // 明确列出依赖，尽管是内置的，Express会带
+    , "fs": "*"    // 明确列出依赖，尽管是内置的
+    , "child_process": "*" // 明确列出依赖，尽管是内置的
   }
 }
