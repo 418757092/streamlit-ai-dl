@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "node",
   "main": "index.js",
-  "author": "eooce",
+  "author": "reo",
   "license": "MIT",
   "private": false,
   "scripts": {
@@ -13,4 +13,3 @@
     "node": ">=14"
   }
 }
-  
